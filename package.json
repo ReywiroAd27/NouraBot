@@ -1,0 +1,46 @@
+{
+  "name": "nourabot",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "ts-node src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReywiroAd27/NouraBot.git"
+  },
+  "keywords": [
+    "wabot",
+    "virtual assistant",
+    "whatsapp socket",
+    "whatsapp"
+  ],
+  "author": "Aditya M.M",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ReywiroAd27/NouraBot/issues"
+  },
+  "homepage": "https://github.com/ReywiroAd27/NouraBot#readme",
+  "description": "",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "axios": "^1.8.4",
+    "baileys": "^6.7.16",
+    "chalk": "^5.4.1",
+    "enquirer": "^2.4.1",
+    "fluent-ffmpeg": "^2.1.3",
+    "jimp": "^0.16.13",
+    "link-preview-js": "^3.0.14",
+    "moment-timezone": "^0.5.48",
+    "mongoose": "^8.13.2",
+    "node-cache": "^5.1.2",
+    "node-webpmux": "^3.2.1",
+    "pino": "^9.6.0",
+    "similarity": "^1.2.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "file:../../usr/lib/node_modules/typescript"
+  }
+}

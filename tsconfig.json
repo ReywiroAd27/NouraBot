@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2021",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "experimentalDecorators": true,
+    "allowJs": false,
+    "checkJs": false,
+    "outDir": "./dist",
+    "strict": false,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "lib": ["es2021","esnext"],
+    "types": ["node"]
+  },
+  "include": ["./src/*.ts","./src/global.d.ts"],
+  "exclude": ["node_modules"]
+}
